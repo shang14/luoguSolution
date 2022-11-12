@@ -1,4 +1,4 @@
-sum(map(int, input().split()))
+print(sum(map(int, input().split())))
 
 # input()：输入一行字符串
 # .split()：以空格进行切分
