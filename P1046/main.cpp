@@ -11,13 +11,12 @@ int main () {
     for (int i = 0; i < N; i++) {
         cin >> appleT.at(i);
     }
-
+    
     cin >> taotao;
-
+    
     for (int i = 0; i < N; i++) {
         if (appleT.at(i) <= (taotao + 30)) {
             n += 1;
-
         }
     }
     cout << n ;
